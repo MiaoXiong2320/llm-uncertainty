@@ -136,3 +136,18 @@ Models:
 - LLaMA-Chat
 
 You can easily extend the code to support more models and datasets by modifying the dataset loader in `utils/dataset_loader.py` and the LLM API call in `utils/llm_query_helper.py`. For open source LLM, you also need to provide the corresponding interface for the code to call this LLM. 
+
+
+## Citation
+
+Please cite the following paper when you find our paper or code useful!
+```
+@inproceedings{
+xiong2024can,
+title={Can {LLM}s Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in {LLM}s},
+author={Miao Xiong and Zhiyuan Hu and Xinyang Lu and YIFEI LI and Jie Fu and Junxian He and Bryan Hooi},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=gjeQKFxFpZ}
+}
+```
